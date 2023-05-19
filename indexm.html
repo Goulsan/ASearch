@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta charset=UTF-8>
+				<script src="https://kit.fontawesome.com/4c49efe9b9.js" crossorigin="anonymous"></script>
+				<style>
+					
+					
+					body{
+						font-family: Arial;
+						background-color: #000000;
+						color: #ACACAC;
+					}
+					input[type="text"]{
+						color: #95DF4A;
+						width: 180px;
+						height: 35px;
+						border: 1px solid;
+						border-radius: 10px;
+						background-color: #1B3500;
+				     }
+				
+				::placeholder {
+					color: #316100;
+				}
+				h1 {
+					color: #489000;
+				}
+				
+				button{
+					color: #489000;
+					width: 85px;
+					height: 44px;
+					border-radius: 10px;
+					background: #1A3400;
+					border: none; 
+ 				   padding: 1rem 1.5rem;
+   				
+				}
+			
+			.search-type{
+				width: 150px;
+				}
+				
+					</style>
+				<center><img src="logo.png" width==100 height=200>
+			</head>
+			
+			<br><input type="text" class="s-1" placeholder="Введите запрос...">|<button class="s-2" onclick="window.location.href='https://www.google.com/search?q='+ a";>Найти</button></center><br><br>
+				<center><button class="search-type">Искать(Яндекс)</button><br><br><button class="search-type">Искать(mail.ru)</button><br><br><button class="search-type">Искать(Google)</Button><hr><br></center>
+				<div class="links">
+					\<button onclick="window.location.href='youtube.com';">YouTube <i class="fa-brands fa-youtube"> </i></button>/
+					<button onclick="window.location.href='https://4pda.to';">4PDA <i class="fa-solid fa-4"></i></button>\
+					<button onclick="window.location.href='https://tiktok.com';">TikTok <i class="fa-brands fa-tiktok"></i></button>/<br><br>
+					<center><button onclick="window.location.href='https://gmail.com';">Gmail <i class="fa-solid fa-at"></i></button>\
+					<button onclick="window.location.href='https://resheba.top';">ГДЗ :) <i class="fa-solid fa-book"></i></button>/<hr></center><center><h1>Хорошего дня!:)</h1></center>
+					</div>
+			<body>
+				<script>
+var today = new Date();
+ 
+
+var now = today.toLocaleTimeString('by-BY');
+document.write(now);
+document.querySelector('.s-2').onclick = myClick
+
+function myClick() {
+	let a = document.querySelector('.s-1').value;
+	console.log(a);
+	window.location.href='https://mail.ru/search?text='+ a;
+}
+
+</script>
+				
+			</body>
+			</html>
+			
